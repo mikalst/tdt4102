@@ -1,5 +1,6 @@
 #include <iomanip>
 #include <iostream>
+#include <math.h>	/* sqrt */
 
 
 void inputAndPrintInteger () {
@@ -80,6 +81,41 @@ double convertKrEuro () {
 	/* Vi bør bruke inputDouble fordi ved bruk av inputInteger vil vi få ValueError. Fordi vi i denne oppgaven ganger sammen to doubles må funksjonen også returnere en double. */
 }
 
+void gangetabell() {
+	int width;
+	std::cout << "Bredde: " << std::endl;
+	std::cin >> width;
+	int height;
+	std::cout << "Høyde: " << std::endl;
+	std::cin >> height;
+	for (int y = 1; y<height+1; y++) {
+		for (int x = 1; x<width+1; x++) {
+			std::cout << std::setprecision(3) << " " << x*y << " " ;
+		}
+		std::cout << std::endl;
+	}
+}
+
+int discriminant (int b, int a, int c) {
+	return (b*b - 4*a*c);
+}
+
+void printRealRoots (int a, int b, int c) {
+	int numberOfRoots = discriminant(a,b,c);
+	if(numberOfRoots>0) {
+		double root1 = -b/(2*a) + sqrt(numberOfRoots)/(2*a);
+		double root2 = -b/(2*a) - sqrt(numberOfRoots)/(2*a);
+		std::cout << "x_1: " << root1 << "\n" << "x_2: " << root2 << std::endl;
+	}
+	else if(numberOfRoots==0) {
+		double root1 = -b/(2*a); 
+		std::cout << "x_1: " << root1 << std::endl;
+	}
+	else {
+		std::cout << "Ingen relle røttet for denne likningen" << std::endl;
+	}
+}
+
 int main () {
 /*	inputAndPrintInteger();
 	int number = inputInteger();
@@ -99,7 +135,7 @@ int main () {
 			}
 		}
 	printHumanReadableTime (10000);
-	convertKrEuro ();*/
+	convertKrEuro ();
 	
 	// Start of menu
 	std::cout << "Velkommen til Mikal sitt program, her er menyen: \n" ;
@@ -119,4 +155,6 @@ int main () {
 		}
 		std::cout << std::endl;;
 	}
+	gangetabell();*/
+	printRealRoots(1,0,-4);
 }
