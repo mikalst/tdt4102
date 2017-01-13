@@ -4,7 +4,7 @@
 
 
 void inputAndPrintInteger () {
-	std::cout << "Skriv inn et heltall: " << std::endl;
+	std::cout << "Skriv inn et heltall: "; 
 	int n = 0;
 	std::cin >> n;
 	std::cout << n << std::endl;
@@ -96,12 +96,12 @@ void gangetabell() {
 	}
 }
 
-int discriminant (int b, int a, int c) {
+double discriminant (double a, double b, double c) {
 	return (b*b - 4*a*c);
 }
 
-void printRealRoots (int a, int b, int c) {
-	int numberOfRoots = discriminant(a,b,c);
+void printRealRoots (double a, double b, double c) {
+	double numberOfRoots = discriminant(a,b,c);
 	if(numberOfRoots>0) {
 		double root1 = -b/(2*a) + sqrt(numberOfRoots)/(2*a);
 		double root2 = -b/(2*a) - sqrt(numberOfRoots)/(2*a);
@@ -112,7 +112,31 @@ void printRealRoots (int a, int b, int c) {
 		std::cout << "x_1: " << root1 << std::endl;
 	}
 	else {
-		std::cout << "Ingen relle røttet for denne likningen" << std::endl;
+		std::cout << "No roots" << std::endl;
+	}
+}
+
+int solveQuadraticEquation(){
+	std::cout << "Velkommen til Mikals abc-formel" << std::endl;
+	double a = inputDouble();
+	double b = inputDouble();
+	double c = inputDouble();
+	printRealRoots(a,b,c);
+	return 0;
+}
+
+void calculateLoanPayments() {
+	double totalLoan;
+	double interestRate;
+	std::cout << "størrelse på lån: ";
+	std::cin >> totalLoan;
+	std::cout << "rentesats: ";
+	std::cin >> interestRate;
+	double remainingLoan=totalLoan;
+	for (int x=1; x<11; x++) {
+		double payment = totalLoan/(10) + interestRate/100 * remainingLoan;
+		remainingLoan -= 1/10 * totalLoan;
+		std::cout << "År " << x << ": " << std::setprecision(2) << std::fixed << payment << std::endl;
 	}
 }
 
@@ -121,40 +145,41 @@ int main () {
 	int number = inputInteger();
 	std::cout << number << std::endl;
 	inputAndPrintIntegersAndPrintSum ();
-	for
-		(
-		 int
-		 i = 10; i < 15; i++) {
-			if
-				(isOdd(i)) {
-					std::cout << i << " er et oddetall." << std::endl;
-				}
-			else
-			{
-				std::cout << i << " er et partall." << std::endl;
-			}
+	for (i = 10; i < 15; i++) {
+		if(isOdd(i)) {
+			std::cout << i << " er et oddetall." << std::endl;
 		}
+		else
+		{
+			std::cout << i << " er et partall." << std::endl;
+		}
+	}
 	printHumanReadableTime (10000);
-	convertKrEuro ();
-	
+	convertKrEuro ();*/
+
 	// Start of menu
 	std::cout << "Velkommen til Mikal sitt program, her er menyen: \n" ;
 	while (true) {
-		std::cout  << " 0) Avslutt \n" << " 1) Summer to tall \n" << " 2) Summer flere tall \n" << " 3) Konverter NOK til EURO \n" ;
+		std::cout  << " 0) Avslutt \n" << " 1) Summer to tall \n" << " 2) Summer flere tall \n" << " 3) Konverter NOK til EURO \n" << " 4) Abc-formelen \n" << " 5) Gangetabell \n" << " 6) Nedbetaling av lån \n" ;
 		int n = 0;
 		std::cin >> n;
 		switch (n) {
 			case 0 : std::cout << "Ha det bra!" << std::endl;
-				 break;
+				 return 0;
 			case 1 : inputIntegersUsingLoopAndPrintSum(true);
 				 break;
 			case 2 : inputIntegersUsingLoopAndPrintSum();
 				 break;
 			case 3 : convertKrEuro();
 				 break;
+			case 4 : solveQuadraticEquation();
+				 break;
+			case 5 : gangetabell();
+				 break;
+			case 6 : calculateLoanPayments();
+				 break;
+			default : std::cout << "Vennligst velg et tall" ;
 		}
 		std::cout << std::endl;;
 	}
-	gangetabell();*/
-	printRealRoots(1,0,-4);
 }
