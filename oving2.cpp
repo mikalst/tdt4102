@@ -133,9 +133,14 @@ void calculateLoanPayments() {
 	std::cout << "rentesats: ";
 	std::cin >> interestRate;
 	double remainingLoan=totalLoan;
-	for (int x=1; x<11; x++) {
+	for (int x=1; x<10; x++) {
 		double payment = totalLoan/(10) + interestRate/100 * remainingLoan;
-		remainingLoan -= 1/10 * totalLoan;
+		if (payment > remainingLoan) {
+			payment = remainingLoan;
+		}
+		else {
+			remainingLoan -= payment;
+		}
 		std::cout << "År " << x << ": " << std::setprecision(2) << std::fixed << payment << std::endl;
 	}
 }

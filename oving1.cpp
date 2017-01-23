@@ -30,7 +30,7 @@ int squareNumberSum(int n) {
 	int totalSum = 0;
 	for(int i=0;i<n;i++) {
 		totalSum += i*i;
-		std::cout << i*i << std::endl;
+		std::cout << pow(i,2) << std::endl;
 	}
 	std::cout << totalSum << std::endl;
 	return totalSum;
