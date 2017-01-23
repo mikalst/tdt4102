@@ -2,7 +2,6 @@
 #include <iostream>
 #include <math.h>	/* sqrt */
 
-
 void inputAndPrintInteger () {
 	std::cout << "Skriv inn et heltall: "; 
 	int n = 0;
