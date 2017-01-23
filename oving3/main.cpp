@@ -1,8 +1,9 @@
-#include <iostream>
 #include "cannonball.h"
+#include <iostream>
 
 int main() {
-    std::cout << "hallo" << std::endl;
-    double myPosX = posX(0.0, 50.0, 0.0);
+    Cannonball myCannonball;
+    double myPenis = myCannonball.acclY();
+    std::cout << myPenis;
     return 0;
-   }
+}
