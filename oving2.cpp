@@ -162,28 +162,5 @@ int main () {
 	convertKrEuro ();*/
 
 	// Start of menu
-	std::cout << "Velkommen til Mikal sitt program, her er menyen: \n" ;
-	while (true) {
-		std::cout  << " 0) Avslutt \n" << " 1) Summer to tall \n" << " 2) Summer flere tall \n" << " 3) Konverter NOK til EURO \n" << " 4) Abc-formelen \n" << " 5) Gangetabell \n" << " 6) Nedbetaling av lån \n" ;
-		int n = 0;
-		std::cin >> n;
-		switch (n) {
-			case 0 : std::cout << "Ha det bra!" << std::endl;
-				 return 0;
-			case 1 : inputIntegersUsingLoopAndPrintSum(true);
-				 break;
-			case 2 : inputIntegersUsingLoopAndPrintSum();
-				 break;
-			case 3 : convertKrEuro();
-				 break;
-			case 4 : solveQuadraticEquation();
-				 break;
-			case 5 : gangetabell();
-				 break;
-			case 6 : calculateLoanPayments();
-				 break;
-			default : std::cout << "Vennligst velg et tall" ;
-		}
-		std::cout << std::endl;;
-	}
+
 }
