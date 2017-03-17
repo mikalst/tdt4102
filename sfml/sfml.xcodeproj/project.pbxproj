@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		752736521E3F78D500233633 /* mastermind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 752736501E3F78D500233633 /* mastermind.cpp */; };
-		75D2A0751E3E383F00A31104 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D2A0741E3E383F00A31104 /* main.cpp */; };
-		75D2A07D1E3E3A0D00A31104 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D2A07B1E3E3A0D00A31104 /* utilities.cpp */; };
-		75D2A0801E3E3A8800A31104 /* tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D2A07E1E3E3A8800A31104 /* tests.cpp */; };
-		75E483251E4B1ED100CA3DCE /* more_tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75E483231E4B1ED100CA3DCE /* more_tests.cpp */; };
+		75A5220C1E5C3BDC003BF2DC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75A5220B1E5C3BDC003BF2DC /* main.cpp */; };
+		75A522161E5C3C74003BF2DC /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75A522121E5C3C74003BF2DC /* game.cpp */; };
+		75A522171E5C3C74003BF2DC /* GameObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75A522131E5C3C74003BF2DC /* GameObjects.cpp */; };
+		75A522181E5C3C74003BF2DC /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 75A522151E5C3C74003BF2DC /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		75D2A06F1E3E383E00A31104 /* CopyFiles */ = {
+		75A522061E5C3BDC003BF2DC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -27,20 +26,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		752736501E3F78D500233633 /* mastermind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mastermind.cpp; sourceTree = "<group>"; };
-		752736511E3F78D500233633 /* mastermind.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mastermind.hpp; sourceTree = "<group>"; };
-		75D2A0711E3E383F00A31104 /* oving4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oving4; sourceTree = BUILT_PRODUCTS_DIR; };
-		75D2A0741E3E383F00A31104 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		75D2A07B1E3E3A0D00A31104 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
-		75D2A07C1E3E3A0D00A31104 /* utilities.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utilities.hpp; sourceTree = "<group>"; };
-		75D2A07E1E3E3A8800A31104 /* tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tests.cpp; sourceTree = "<group>"; };
-		75D2A07F1E3E3A8800A31104 /* tests.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tests.hpp; sourceTree = "<group>"; };
-		75E483231E4B1ED100CA3DCE /* more_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = more_tests.cpp; sourceTree = "<group>"; };
-		75E483241E4B1ED100CA3DCE /* more_tests.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = more_tests.hpp; sourceTree = "<group>"; };
+		75A522081E5C3BDC003BF2DC /* sfml */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sfml; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A5220B1E5C3BDC003BF2DC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		75A522121E5C3C74003BF2DC /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = game.cpp; path = old_code/game.cpp; sourceTree = SOURCE_ROOT; };
+		75A522131E5C3C74003BF2DC /* GameObjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameObjects.cpp; path = old_code/GameObjects.cpp; sourceTree = SOURCE_ROOT; };
+		75A522141E5C3C74003BF2DC /* GameObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameObjects.h; path = old_code/GameObjects.h; sourceTree = SOURCE_ROOT; };
+		75A522151E5C3C74003BF2DC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = old_code/Makefile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		75D2A06E1E3E383E00A31104 /* Frameworks */ = {
+		75A522051E5C3BDC003BF2DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,108 +45,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		75D2A0681E3E383E00A31104 = {
+		75A521FF1E5C3BDC003BF2DC = {
 			isa = PBXGroup;
 			children = (
-				75D2A0731E3E383F00A31104 /* oving4 */,
-				75D2A0721E3E383F00A31104 /* Products */,
+				75A5220A1E5C3BDC003BF2DC /* sfml */,
+				75A522091E5C3BDC003BF2DC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		75D2A0721E3E383F00A31104 /* Products */ = {
+		75A522091E5C3BDC003BF2DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75D2A0711E3E383F00A31104 /* oving4 */,
+				75A522081E5C3BDC003BF2DC /* sfml */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		75D2A0731E3E383F00A31104 /* oving4 */ = {
+		75A5220A1E5C3BDC003BF2DC /* sfml */ = {
 			isa = PBXGroup;
 			children = (
-				75D2A0741E3E383F00A31104 /* main.cpp */,
-				75E483231E4B1ED100CA3DCE /* more_tests.cpp */,
-				75E483241E4B1ED100CA3DCE /* more_tests.hpp */,
-				752736501E3F78D500233633 /* mastermind.cpp */,
-				752736511E3F78D500233633 /* mastermind.hpp */,
-				75D2A07B1E3E3A0D00A31104 /* utilities.cpp */,
-				75D2A07C1E3E3A0D00A31104 /* utilities.hpp */,
-				75D2A07E1E3E3A8800A31104 /* tests.cpp */,
-				75D2A07F1E3E3A8800A31104 /* tests.hpp */,
+				75A522121E5C3C74003BF2DC /* game.cpp */,
+				75A522131E5C3C74003BF2DC /* GameObjects.cpp */,
+				75A522141E5C3C74003BF2DC /* GameObjects.h */,
+				75A522151E5C3C74003BF2DC /* Makefile */,
+				75A5220B1E5C3BDC003BF2DC /* main.cpp */,
 			);
-			path = oving4;
+			path = sfml;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		75D2A0701E3E383E00A31104 /* oving4 */ = {
+		75A522071E5C3BDC003BF2DC /* sfml */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75D2A0781E3E383F00A31104 /* Build configuration list for PBXNativeTarget "oving4" */;
+			buildConfigurationList = 75A5220F1E5C3BDC003BF2DC /* Build configuration list for PBXNativeTarget "sfml" */;
 			buildPhases = (
-				75D2A06D1E3E383E00A31104 /* Sources */,
-				75D2A06E1E3E383E00A31104 /* Frameworks */,
-				75D2A06F1E3E383E00A31104 /* CopyFiles */,
+				75A522041E5C3BDC003BF2DC /* Sources */,
+				75A522051E5C3BDC003BF2DC /* Frameworks */,
+				75A522061E5C3BDC003BF2DC /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = oving4;
-			productName = oving4;
-			productReference = 75D2A0711E3E383F00A31104 /* oving4 */;
+			name = sfml;
+			productName = sfml;
+			productReference = 75A522081E5C3BDC003BF2DC /* sfml */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		75D2A0691E3E383E00A31104 /* Project object */ = {
+		75A522001E5C3BDC003BF2DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Mikal Stapnes";
 				TargetAttributes = {
-					75D2A0701E3E383E00A31104 = {
+					75A522071E5C3BDC003BF2DC = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = MJA597TJD5;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 75D2A06C1E3E383E00A31104 /* Build configuration list for PBXProject "oving4" */;
+			buildConfigurationList = 75A522031E5C3BDC003BF2DC /* Build configuration list for PBXProject "sfml" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 75D2A0681E3E383E00A31104;
-			productRefGroup = 75D2A0721E3E383F00A31104 /* Products */;
+			mainGroup = 75A521FF1E5C3BDC003BF2DC;
+			productRefGroup = 75A522091E5C3BDC003BF2DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75D2A0701E3E383E00A31104 /* oving4 */,
+				75A522071E5C3BDC003BF2DC /* sfml */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		75D2A06D1E3E383E00A31104 /* Sources */ = {
+		75A522041E5C3BDC003BF2DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75D2A07D1E3E3A0D00A31104 /* utilities.cpp in Sources */,
-				75D2A0751E3E383F00A31104 /* main.cpp in Sources */,
-				75E483251E4B1ED100CA3DCE /* more_tests.cpp in Sources */,
-				75D2A0801E3E3A8800A31104 /* tests.cpp in Sources */,
-				752736521E3F78D500233633 /* mastermind.cpp in Sources */,
+				75A522171E5C3C74003BF2DC /* GameObjects.cpp in Sources */,
+				75A5220C1E5C3BDC003BF2DC /* main.cpp in Sources */,
+				75A522181E5C3C74003BF2DC /* Makefile in Sources */,
+				75A522161E5C3C74003BF2DC /* game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		75D2A0761E3E383F00A31104 /* Debug */ = {
+		75A5220D1E5C3BDC003BF2DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -198,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		75D2A0771E3E383F00A31104 /* Release */ = {
+		75A5220E1E5C3BDC003BF2DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +228,7 @@
 			};
 			name = Release;
 		};
-		75D2A0791E3E383F00A31104 /* Debug */ = {
+		75A522101E5C3BDC003BF2DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = MJA597TJD5;
@@ -246,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		75D2A07A1E3E383F00A31104 /* Release */ = {
+		75A522111E5C3BDC003BF2DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = MJA597TJD5;
@@ -257,25 +247,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		75D2A06C1E3E383E00A31104 /* Build configuration list for PBXProject "oving4" */ = {
+		75A522031E5C3BDC003BF2DC /* Build configuration list for PBXProject "sfml" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75D2A0761E3E383F00A31104 /* Debug */,
-				75D2A0771E3E383F00A31104 /* Release */,
+				75A5220D1E5C3BDC003BF2DC /* Debug */,
+				75A5220E1E5C3BDC003BF2DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75D2A0781E3E383F00A31104 /* Build configuration list for PBXNativeTarget "oving4" */ = {
+		75A5220F1E5C3BDC003BF2DC /* Build configuration list for PBXNativeTarget "sfml" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75D2A0791E3E383F00A31104 /* Debug */,
-				75D2A07A1E3E383F00A31104 /* Release */,
+				75A522101E5C3BDC003BF2DC /* Debug */,
+				75A522111E5C3BDC003BF2DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 75D2A0691E3E383E00A31104 /* Project object */;
+	rootObject = 75A522001E5C3BDC003BF2DC /* Project object */;
 }

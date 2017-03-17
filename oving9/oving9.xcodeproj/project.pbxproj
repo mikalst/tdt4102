@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75F387191E769B86008C0B13 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75F387181E769B86008C0B13 /* main.cpp */; };
+		75F3871C1E769BC0008C0B13 /* Minesweeper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75F3871A1E769BC0008C0B13 /* Minesweeper.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75F387091E769AC3008C0B13 /* oving9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oving9; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F3870F1E769AC3008C0B13 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		75F387101E769AC3008C0B13 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		75F387111E769AC3008C0B13 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		75F387121E769AC3008C0B13 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		75F387181E769B86008C0B13 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		75F3871A1E769BC0008C0B13 /* Minesweeper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Minesweeper.cpp; sourceTree = "<group>"; };
+		75F3871B1E769BC0008C0B13 /* Minesweeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Minesweeper.h; sourceTree = "<group>"; };
+		75F3871E1E76B987008C0B13 /* oving9.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = oving9.profdata; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75F387071E769AC3008C0B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75F387011E769AC3008C0B13 = {
+			isa = PBXGroup;
+			children = (
+				75F3870B1E769AC3008C0B13 /* oving9 */,
+				75F3870A1E769AC3008C0B13 /* Products */,
+				75F3871D1E76B987008C0B13 /* OptimizationProfiles */,
+			);
+			sourceTree = "<group>";
+		};
+		75F3870A1E769AC3008C0B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75F387091E769AC3008C0B13 /* oving9 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75F3870B1E769AC3008C0B13 /* oving9 */ = {
+			isa = PBXGroup;
+			children = (
+				75F3870E1E769AC3008C0B13 /* Resources */,
+				75F387181E769B86008C0B13 /* main.cpp */,
+				75F3871A1E769BC0008C0B13 /* Minesweeper.cpp */,
+				75F3871B1E769BC0008C0B13 /* Minesweeper.h */,
+			);
+			path = oving9;
+			sourceTree = "<group>";
+		};
+		75F3870E1E769AC3008C0B13 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75F3870F1E769AC3008C0B13 /* cute_image.jpg */,
+				75F387101E769AC3008C0B13 /* nice_music.ogg */,
+				75F387111E769AC3008C0B13 /* sansation.ttf */,
+				75F387121E769AC3008C0B13 /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		75F3871D1E76B987008C0B13 /* OptimizationProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				75F3871E1E76B987008C0B13 /* oving9.profdata */,
+			);
+			path = OptimizationProfiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75F387081E769AC3008C0B13 /* oving9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F387151E769AC3008C0B13 /* Build configuration list for PBXNativeTarget "oving9" */;
+			buildPhases = (
+				75F387061E769AC3008C0B13 /* Sources */,
+				75F387071E769AC3008C0B13 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oving9;
+			productName = oving9;
+			productReference = 75F387091E769AC3008C0B13 /* oving9 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75F387021E769AC3008C0B13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mikal Stapnes";
+				TargetAttributes = {
+					75F387081E769AC3008C0B13 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MJA597TJD5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 75F387051E769AC3008C0B13 /* Build configuration list for PBXProject "oving9" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75F387011E769AC3008C0B13;
+			productRefGroup = 75F3870A1E769AC3008C0B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75F387081E769AC3008C0B13 /* oving9 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75F387061E769AC3008C0B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F3871C1E769BC0008C0B13 /* Minesweeper.cpp in Sources */,
+				75F387191E769B86008C0B13 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		75F387131E769AC3008C0B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		75F387141E769AC3008C0B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		75F387161E769AC3008C0B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				DEVELOPMENT_TEAM = MJA597TJD5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75F387171E769AC3008C0B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				DEVELOPMENT_TEAM = MJA597TJD5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75F387051E769AC3008C0B13 /* Build configuration list for PBXProject "oving9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F387131E769AC3008C0B13 /* Debug */,
+				75F387141E769AC3008C0B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F387151E769AC3008C0B13 /* Build configuration list for PBXNativeTarget "oving9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F387161E769AC3008C0B13 /* Debug */,
+				75F387171E769AC3008C0B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75F387021E769AC3008C0B13 /* Project object */;
+}

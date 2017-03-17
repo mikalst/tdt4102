@@ -70,7 +70,7 @@ void randomizeCStrings(char* startOfArray, int size, char upperBoundary, char lo
 }
 
 void readInputToCString(char *varCString, int size, char upperBoundary, char lowerBoundary) {
-    std::cout << "Skriv inn " << size << " karakterer!" << std::endl;
+    std::cout << "Skriv inn " << size << " bokstaver mellom " << upperBoundary << " og " << lowerBoundary << std::endl;
     for (int i=0; i<size; i++) {
         char inChar;
         bool validInput = false;

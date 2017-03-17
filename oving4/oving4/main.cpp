@@ -35,5 +35,12 @@ int main(int argc, const char * argv[]) {
     testCStrings();
     return 0;
     */
+    int myArray[10];
+    for (int x = 0; x < 10; x++) {
+        *(myArray + x) = 20;
+    }
+    for (int x = 0; x < 10; x++) {
+        std::cout << *(myArray + x) << std::endl ;
+    }
     playMastermind();
 }
